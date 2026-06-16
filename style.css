@@ -1,14 +1,4 @@
 body{
-    .container {
-      display: flex;
-      gap: 1rem;
-    }
-    .card {
-      flex: 1;             /* 幅を均等に分け合う */
-    }
-    
-    background-color: #f5f7fb;
-    
     /* 狭い画面（600px以下）：縦1カラムに切り替え */
     @media (max-width: 600px) {
       .container {
