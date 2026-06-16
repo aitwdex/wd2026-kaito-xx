@@ -1,9 +1,5 @@
 body{
-    /* 狭い画面（600px以下）：縦1カラムに切り替え */
-    @media (max-width: 600px) {
-      .container {
-        flex-direction: column;
-      }
+    background: #f7f7f7
 }
 
 h1{
